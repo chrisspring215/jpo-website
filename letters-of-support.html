@@ -35,17 +35,47 @@
     <main>
       <div class="row">
         <div class="small-12 medium-8 medium-centered columns">
-          <h1>Letters of Support
+          <h1>Letters of Support</h1>
+          <h3>Contact us today to find out how we can help!</h3>
+          <form action="affil_contact_form.php" method="post">
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Your Name
+                  <input name="contact_name" type="text" placeholder="enter your name" />
+                </label>
+              </div>
 
-Insert web form. 
-
-You may also send letters to:
-
-JP Orlewicz / MDOC #687570
-Thumb Correctional Facility
-3225 John Conley Drive
-Lapeer, MI 48446</p>
-
+              <div class="large-12 columns">
+                <label>Your Email
+                  <input name="contact_email" type="email" placeholder="you@someplace.com" />
+                </label>
+              </div>
+              <div class="large-12 columns">
+                <label>Message
+                  <textarea name="contact_message" placeholder="Enter your message of support"></textarea>
+                </label>
+                <br>
+              </div>
+              <div class="small-12 large-12 columns">
+                <input type="submit" name="submit" id="submit" class="button expand"value="submit" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="small-12 medium-8 medium-centered columns">
+          <hr>
+        </div>
+        <div class="small-12 medium-8 medium-centered columns">
+          <h3>You may also send letters to:</h3>
+          <div class="vcard">
+            <p class="fn">JP Orlewicz / MDOC #687570<br>Thumb Correctional Facility<p>
+            <p class="adr">
+            <span class="street-address">3225 John Conley Drive</span><br>
+            <span class="region">Lapeer, MI</span><br>
+            <span class="postal-code">48446</span><br>
+            <span class="country-name">USA</span>
+            </p>
+          </div>
         </div>
       </div>
     </main>

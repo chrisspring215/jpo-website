@@ -10324,44 +10324,62 @@ th.hide-for-touch {
   }
 }
 /* line 2, ../scss/_style.scss */
+main {
+  margin-bottom: 3em;
+}
+
+/* line 7, ../scss/_style.scss */
 h1 {
   line-height: 1em;
   font-variant: small-caps;
   font-weight: bold;
+  color: #333;
 }
 
-/* line 9, ../scss/_style.scss */
+/* line 15, ../scss/_style.scss */
 figcaption {
   font-style: italic;
   color: #666;
 }
 
-/* line 15, ../scss/_style.scss */
-.fon {
+/* line 21, ../scss/_style.scss */
+.panel {
   background-color: #ecffff;
   border-radius: .3em;
-  font-style: italic;
+}
+/* line 26, ../scss/_style.scss */
+.panel p {
+  color: #444;
+  font-size: 1.25em;
+  line-height: 1.3em;
 }
 
-/* line 22, ../scss/_style.scss */
+/* line 34, ../scss/_style.scss */
 figure {
   padding: 1em 0 2em 0;
 }
-/* line 26, ../scss/_style.scss */
+/* line 38, ../scss/_style.scss */
 figure img {
   border: 1px solid #999;
   border-radius: .3em;
   margin-bottom: 1em;
 }
 
-/* line 35, ../scss/_style.scss */
+/* line 46, ../scss/_style.scss */
+form {
+  border: 1px solid #ccc;
+  padding: 3em;
+  border-radius: .3em;
+}
+
+/* line 52, ../scss/_style.scss */
 header {
   margin-bottom: 2em;
   background-color: #222;
   padding: 1em 0;
   font-variant: small-caps;
 }
-/* line 42, ../scss/_style.scss */
+/* line 59, ../scss/_style.scss */
 header .page-title {
   color: #fff;
   font-weight: bold;
@@ -10371,17 +10389,17 @@ header .page-title {
   margin-bottom: .5em;
 }
 
-/* line 55, ../scss/_style.scss */
+/* line 72, ../scss/_style.scss */
 nav ul {
   list-style-type: none;
   margin: 0;
   line-height: 2.75em;
 }
-/* line 61, ../scss/_style.scss */
+/* line 78, ../scss/_style.scss */
 nav ul li {
   display: inline;
 }
-/* line 66, ../scss/_style.scss */
+/* line 83, ../scss/_style.scss */
 nav ul a {
   background: none;
   padding: .5em .7em;
@@ -10389,32 +10407,32 @@ nav ul a {
   font-weight: bold;
   border: 2px solid #2495BF;
 }
-/* line 74, ../scss/_style.scss */
+/* line 91, ../scss/_style.scss */
 nav ul a:hover {
   background: #1081ab;
   color: #fff;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 86, ../scss/_style.scss */
+  /* line 103, ../scss/_style.scss */
   header {
     margin-bottom: 2em;
     padding: 2em 0;
   }
-  /* line 91, ../scss/_style.scss */
+  /* line 108, ../scss/_style.scss */
   header .page-title {
     font-size: 3em;
   }
 
-  /* line 99, ../scss/_style.scss */
+  /* line 116, ../scss/_style.scss */
   nav ul {
     margin: 0;
   }
-  /* line 103, ../scss/_style.scss */
+  /* line 120, ../scss/_style.scss */
   nav ul li {
     display: inline;
   }
-  /* line 108, ../scss/_style.scss */
+  /* line 125, ../scss/_style.scss */
   nav ul a {
     padding: .3em .5em;
     font-size: 1em;
