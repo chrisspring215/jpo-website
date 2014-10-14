@@ -1,14 +1,35 @@
 h1
 {
 	line-height: 1em;
+	font-variant: small-caps;
+	font-weight: bold;
 }
 
-.panel
+figcaption
+{
+	font-style: italic;
+	color: #666;
+}
+
+.fon
 {
 	background-color: #2495BF + 200;
 	border-radius: .3em;
 	font-style: italic;
 }
+
+figure
+{
+	padding: 1em 0 2em 0;
+
+	img
+	{
+		border: 1px solid #999;
+		border-radius: .3em;
+		margin-bottom: 1em;
+	}
+}
+
 
 header
 {
