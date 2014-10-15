@@ -8,23 +8,23 @@ h1
 	line-height: 1em;
 	font-variant: small-caps;
 	font-weight: bold;
-	color: #333;
+	color: $darkest;
 }
 
 figcaption
 {
 	font-style: italic;
-	color: #666;
+	color: $medium;
 }
 
 .panel
 {
-	background-color: #2495BF + 200;
+	background-color: $main-color + 200;
 	border-radius: .3em;
 
 	p
 	{
-		color: #444;
+		color: $darkest;
 		font-size: 1.25em;
 		line-height: 1.3em;
 	}
@@ -36,7 +36,7 @@ figure
 
 	img
 	{
-		border: 1px solid #999;
+		border: 1px solid $light;
 		border-radius: .3em;
 		margin-bottom: 1em;
 	}
@@ -44,20 +44,20 @@ figure
 
 form
 {
-	border: 1px solid #ccc;
+	border: 1px solid $light;
 	padding: 3em;
 	border-radius: .3em;
 }
 header
 {
 	margin-bottom: 2em;
-	background-color: #222;
+	background-color: $main-color;
 	padding: 1em 0;
 	font-variant: small-caps;
 
 	.page-title
 	{
-		color:#fff;
+		color: $lightest;
 		font-weight: bold;
 		font-size: 2em;
 		line-height: 1.3em;
@@ -83,20 +83,26 @@ nav
 		{
 			background: none;
 			padding: .5em .7em;
-			color: #fff;
+			color: $lightest;
 			font-weight: bold;
-			border: 2px solid #2495BF;
+			border: 2px solid $lightest;
 
 			&:hover
 			{
-				background: #2495BF - 20;
-				color: #fff;
+				background: $main-color - 20;
+				color: $lightest;
 			}
 
 		}
 	}
 }
-
+.button
+{
+	background-color: $main-color;
+	color: $darkest;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 @media only screen and (min-width: 40.063em) { 
 
 header

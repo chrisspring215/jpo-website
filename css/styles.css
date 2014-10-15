@@ -10333,23 +10333,23 @@ h1 {
   line-height: 1em;
   font-variant: small-caps;
   font-weight: bold;
-  color: #333;
+  color: #333333;
 }
 
 /* line 15, ../scss/_style.scss */
 figcaption {
   font-style: italic;
-  color: #666;
+  color: #666666;
 }
 
 /* line 21, ../scss/_style.scss */
 .panel {
-  background-color: #ecffff;
+  background-color: #e1ffff;
   border-radius: .3em;
 }
 /* line 26, ../scss/_style.scss */
 .panel p {
-  color: #444;
+  color: #333333;
   font-size: 1.25em;
   line-height: 1.3em;
 }
@@ -10360,14 +10360,14 @@ figure {
 }
 /* line 38, ../scss/_style.scss */
 figure img {
-  border: 1px solid #999;
+  border: 1px solid #cccccc;
   border-radius: .3em;
   margin-bottom: 1em;
 }
 
 /* line 46, ../scss/_style.scss */
 form {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 3em;
   border-radius: .3em;
 }
@@ -10375,13 +10375,13 @@ form {
 /* line 52, ../scss/_style.scss */
 header {
   margin-bottom: 2em;
-  background-color: #222;
+  background-color: #198ca5;
   padding: 1em 0;
   font-variant: small-caps;
 }
 /* line 59, ../scss/_style.scss */
 header .page-title {
-  color: #fff;
+  color: white;
   font-weight: bold;
   font-size: 2em;
   line-height: 1.3em;
@@ -10403,36 +10403,44 @@ nav ul li {
 nav ul a {
   background: none;
   padding: .5em .7em;
-  color: #fff;
+  color: white;
   font-weight: bold;
-  border: 2px solid #2495BF;
+  border: 2px solid white;
 }
 /* line 91, ../scss/_style.scss */
 nav ul a:hover {
-  background: #1081ab;
-  color: #fff;
+  background: #057891;
+  color: white;
+}
+
+/* line 100, ../scss/_style.scss */
+.button {
+  background-color: #198ca5;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 103, ../scss/_style.scss */
+  /* line 109, ../scss/_style.scss */
   header {
     margin-bottom: 2em;
     padding: 2em 0;
   }
-  /* line 108, ../scss/_style.scss */
+  /* line 114, ../scss/_style.scss */
   header .page-title {
     font-size: 3em;
   }
 
-  /* line 116, ../scss/_style.scss */
+  /* line 122, ../scss/_style.scss */
   nav ul {
     margin: 0;
   }
-  /* line 120, ../scss/_style.scss */
+  /* line 126, ../scss/_style.scss */
   nav ul li {
     display: inline;
   }
-  /* line 125, ../scss/_style.scss */
+  /* line 131, ../scss/_style.scss */
   nav ul a {
     padding: .3em .5em;
     font-size: 1em;
