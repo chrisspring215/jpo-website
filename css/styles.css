@@ -10416,7 +10416,7 @@ nav ul a:hover {
 /* line 100, ../scss/_style.scss */
 .button {
   background-color: #198ca5;
-  color: #333333;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
 }
